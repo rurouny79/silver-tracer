@@ -1,3 +1,6 @@
+// compile commane
+// gcc -g -D_GNU_SOURCE -finstrument-functions instrfunc.c -o instrfunc -ldl -lpthread -Wl,--export-dynamic
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <dlfcn.h>
